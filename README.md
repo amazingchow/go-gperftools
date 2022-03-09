@@ -14,6 +14,7 @@ import (
 	"time"
 
 	gogperf "github.com/amazingchow/go-gperftools"
+	_ "github.com/amazingchow/go-gperftools/cgogperf"
 )
 
 func init() {

@@ -5,7 +5,7 @@ extern "C" {
 #endif
 
 HeapLeakCheckerCGO start(char* name);
-void stop(HeapLeakCheckerCGO i);
+void stop(HeapLeakCheckerCGO handler);
 
 #ifdef __cplusplus
 }
